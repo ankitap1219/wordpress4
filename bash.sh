@@ -1,8 +1,8 @@
 #!/bin/bash
-DB_HOST="wordpress.c18akoy0wjre.us-east-1.rds.amazonaws.com"
-DB_NAME="wordpress"
+DB_HOST="wordpressdb.c5qgeeaewa0i.us-east-2.rds.amazonaws.com"
+DB_NAME="wordpressdb"
 DB_USER="admin"
-DB_PASSWORD="Secure75!"
+DB_PASSWORD="12345678"
 
 sudo yum update -y
 sudo yum install -y mysql httpd
