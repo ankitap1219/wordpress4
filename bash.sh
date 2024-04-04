@@ -29,4 +29,4 @@ sudo curl -sS https://api.wordpress.org/secret-key/1.1/salt/ | sudo tee -a /home
 
 sudo cp -Rf /home/ec2-user/wordpress/* /var/www/html/
 
-sudo systemctl restart httpdi
+sudo systemctl restart httpd
